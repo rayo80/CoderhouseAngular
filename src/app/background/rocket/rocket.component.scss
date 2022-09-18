@@ -1,0 +1,18 @@
+svg#rocket {
+    position: fixed;
+    width: 80px;
+    left: 39.2%;
+    top: 8.2%;
+    z-index: -9;
+  }
+
+  .row.no-pad {
+    --bs-gutter-x: 0rem;
+  }
+
+  @media screen and (max-width: 575px) {
+
+    .svg {
+        display: none;
+    }
+  }

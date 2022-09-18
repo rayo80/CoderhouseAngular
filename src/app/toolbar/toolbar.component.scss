@@ -1,0 +1,33 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1D2226;
+    color: white;
+    font-weight: 600;
+    padding-right: 3%;
+}
+
+.spacer {
+    flex: 1;
+  }
+
+.toolbar img {
+    margin: 0 16px;
+}
+
+.toolbar a svg{
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 0 16px;
+}
+
+.toolbar a:hover,
+.toolbar a:hover {
+    opacity: 0.8;
+}
